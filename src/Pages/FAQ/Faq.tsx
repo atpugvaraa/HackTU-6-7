@@ -32,12 +32,12 @@ const faqData: {
 	{
 		question: "Where and how do I submit my PPT for Round 0?",
 		answer:
-			"You can submit your PPT for Round 0 by visiting https://submit.ccstiet.com/. Follow the instructions on the portal to upload your submission before the deadline, i.e. 20 January 2025, 11:59 p.m. Ensure your file meets the required guidelines for successful submission.",
+			"You can submit your PPT for Round 0 by visiting https://submit.ccstiet.com/. Follow the instructions on the portal to upload your submission before the deadline, i.e. 20 January 2026, 11:59 p.m. Ensure your file meets the required guidelines for successful submission.",
 	},
 	{
 		question: "Where is it being held?",
 		answer:
-			"HackTU 6.0 is a Physical Hackathon. You will have to attend the hackathon in offline mode at Thapar Institute of Engineering and Technology, Patiala, Punjab. Necessary information will be provided to participants through their registered mail.",
+			"HackTU 7.0 is a Physical Hackathon. You will have to attend the hackathon in offline mode at Thapar Institute of Engineering and Technology, Patiala, Punjab. Necessary information will be provided to participants through their registered mail.",
 	},
 	{
 		question: "Can we participate individually?",

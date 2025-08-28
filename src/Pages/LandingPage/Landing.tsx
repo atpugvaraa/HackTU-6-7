@@ -15,15 +15,15 @@ function Landing() {
 				effect="blur"
 				visibleByDefault={true}
 			/>
-			<div className="flex flex-col mt-10 max-w-1/2 gap-2 w-max justify-center items-center px-[3dvw]">
+			<div className="flex flex-col mt-10 max-w-1/2 w-max justify-center items-center px-[3dvw]">
 				<LazyLoadImage
 					src={logo}
 					alt="logo"
-					className="object-contain"
+					className="object-contain w-full sm:h-40 md:h-52 lg:h-64"
 					effect="blur"
 				/>
 				<h1 className="self-center text-[#D9D9D9] text-4xl max-lg:text-3xl max-md:text-2xl font-space-grotesk">
-					8-9th Feb 2025
+					7-8th Feb 2026
 				</h1>
 				<div className="mt-10 flex flex-col gap-5">
 					<button

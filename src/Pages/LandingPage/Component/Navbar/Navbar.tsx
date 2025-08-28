@@ -9,7 +9,7 @@ function Navbar() {
 					alt="logo"
 					className="max-h-5 z-[100]"
 				/>
-				<h1 className="font-abeezee">HACKTU 6.0</h1>
+				<h1 className="font-abeezee">HackTU 7.0</h1>
 			</div>
 			<div className="flex justify-between items-center"></div>
 		</div>

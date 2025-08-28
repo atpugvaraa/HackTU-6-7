@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function Timer() {
-	const targetDate = new Date("2025-02-08T11:00:00"); // Set your specific date and time here
+	const targetDate = new Date("2026-02-07T11:00:00"); // Set your specific date and time here
 	const [time, setTime] = useState({
 		days: 0,
 		hours: 0,
@@ -31,7 +31,7 @@ export default function Timer() {
 		const timerInterval = setInterval(calculateTimeLeft, 1000); // Update every second
 
 		return () => clearInterval(timerInterval); // Cleanup on component unmount
-	}, []); // Removed `targetDate` dependency as it doesn't change
+	}, [targetDate]); // Removed `targetDate` dependency as it doesn't change
 
 	return (
 		<div className="flex flex-col items-center mt-7 gap-5">

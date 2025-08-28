@@ -33,7 +33,7 @@ export const timelineElements = [
 		key: 4,
 		time: "8 - 9 February",
 		icon: "school",
-		title: "Main HackTU 6.0 Day",
+		title: "Main HackTU 7.0 Day",
 		buttonText: "Read More",
 		//   location: "",
 		description:

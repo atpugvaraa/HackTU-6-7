@@ -91,7 +91,7 @@ function Footer() {
 				</div>
 				<div>
 					<h1 className="text-center text-sm">
-						&copy;HACKTU 6.0 2025 ALL RIGHTS RESERVED | Designed With ❤️
+						&copy;HackTU 7.0 2026 ALL RIGHTS RESERVED | Designed With ❤️
 						by <span className="underline">Team CCS</span>
 					</h1>
 				</div>
