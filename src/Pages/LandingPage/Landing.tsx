@@ -6,6 +6,17 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import Timer from "./Component/Timer";
 
 function Landing() {
+	useEffect(() => {
+		const script = document.createElement("script");
+		script.src = "https://apply.devfolio.co/v2/sdk.js";
+		script.async = true;
+		script.defer = true;
+		document.body.appendChild(script);
+
+		return () => {
+			document.body.removeChild(script);
+		};
+	}, []);
 	return (
 		<div className="h-screen w-full flex justify-between items-center gap-7">
 			<LazyLoadImage
@@ -26,6 +37,12 @@ function Landing() {
 					7-8th Feb 2026
 				</h1>
 				<div className="mt-10 flex flex-col gap-5">
+					<div 
+						class="apply-button" 
+						data-hackathon-slug="hacktu-7" 
+						data-button-theme="light"
+						style="height: 44px; width: 100%; max-width: 312px"
+					></div>
 					<button
 						className="font-space-grotesk hover:scale-105 transition-all font-light px-14 rounded-md py-3 bg-[#A0BED3]"
 						onClick={() => window.open("https://hacktu-6.devfolio.co/")}
