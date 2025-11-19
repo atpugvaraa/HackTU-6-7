@@ -4,6 +4,7 @@ import logo from "./Assets/hacktu_text.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import Timer from "./Component/Timer";
+import { useEffect } from "react";
 
 function Landing() {
 	useEffect(() => {
@@ -37,12 +38,12 @@ function Landing() {
 					7-8th Feb 2026
 				</h1>
 				<div className="mt-10 flex flex-col gap-5">
-					<button
+					<div 
 						class="apply-button" 
-						data-hackathon-slug="hacktu-7" 
-						data-button-theme="light"
-						style="height: 44px; width: 100%; max-width: 312px"
-					></button>
+						data-hackathon-slug="hacktu7" 
+						data-button-theme="dark-inverted"
+						style={{height: 44, width: "100%", maxWidth: 312}}
+></div>
 					<button
 						className="font-space-grotesk hover:scale-105 transition-all font-light px-14 rounded-md py-3 bg-[#A0BED3]"
 						onClick={() => window.open("https://hacktu-6.devfolio.co/")}
