@@ -1,11 +1,13 @@
 export const sponsorData = [{
-	company: "ETHIndia",
-	info: "Sponsor",
-	image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRopE4gXV5fUw92jHGOx5NusWE6CcoIoPs4w&s",
+	company: "ETHINDIA LOGO",
+	info: "Community Partner",
+	image: "https://res.cloudinary.com/dihvrhw07/image/upload/v1763642794/ethindia-dark_mf20kh.png",
+	onclick: "https://ethindia.co "
 },{
-	company: "Devfolio",
-	info: "Sponsor",
-	image: "https://cdn.iconscout.com/icon/free/png-256/free-devfolio-logo-icon-svg-download-png-1399882.png",
+	company: "DEVFOLIO LOGO",
+	info: "Community Partner",
+	image: "https://res.cloudinary.com/dihvrhw07/image/upload/v1763642740/Devfolio_Logo-Colored_edwgm5.png",
+	onclick:"https://devfolio.co"
 },
 {
 	company: "Indus One",
@@ -22,11 +24,11 @@ export const sponsorData = [{
 	info: "Power Partner",
 	image: "https://res.cloudinary.com/dc1tl4hol/image/upload/f_auto,q_auto/n3elyxrh19xcamk1lvgr",
 },
-{
-	company: "MLH",
-	info: "Hackathon Partner",
-	image: "https://res.cloudinary.com/dagyjqo2i/image/upload/f_auto,q_auto/v1/hacktu/wd91muzilrwoowdgwouh",
-},
+//{
+//	company: "MLH",
+//	info: "Hackathon Partner",
+//	image: "https://res.cloudinary.com/dagyjqo2i/image/upload/f_auto,q_auto/v1/hacktu/wd91muzilrwoowdgwouh",
+//},
 {
 	company: "Plum",
 	info: "Gifting Partner",
@@ -47,11 +49,7 @@ export const sponsorData = [{
 	info: "Associate Partner",
 	image: "https://res.cloudinary.com/dagyjqo2i/image/upload/f_auto,q_auto/v1/hacktu/frtu4kk5czcwy6lijvtb",
 },
-{
-	company: "Devfolio",
-	info: "Community Partner",
-	image: "https://res.cloudinary.com/dagyjqo2i/image/upload/f_auto,q_auto/v1/hacktu/esftrd12ulhe4hdaciy0",
-},
+
 {
 	company: "GitHub",
 	info: "Community Partner",
@@ -68,11 +66,7 @@ export const sponsorData = [{
 	info: "Community Partner",
 	image: "https://res.cloudinary.com/dagyjqo2i/image/upload/f_auto,q_auto/v1/hacktu/gsxteekngtlebqmgcx8u",
 },
-{
-	company: "ETH India",
-	info: "Community Partner",
-	image: "https://res.cloudinary.com/dagyjqo2i/image/upload/f_auto,q_auto/v1/hacktu/ne3a8g6pchnrkbauoubt",
-},
+
 {
 	company: "Aptos",
 	info: "Community Partner",
