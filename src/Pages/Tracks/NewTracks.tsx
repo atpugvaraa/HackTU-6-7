@@ -1,21 +1,21 @@
-// import TwinklingBackground from "@/TwinklingBackground";
+//import TwinklingBackground from "@/TwinklingBackground";
 import TracksCard from "./Assets/TracksCard";
 import { data as trackData } from "./Assets/TracksData";
-//import { useState } from "react";
+import { useState } from "react";
 import styles from "./NewTracks.module.css";
 import HeaderText from "@/components/ui/HeaderText";
-//import { CircleChevronRight, CircleChevronLeft } from "lucide-react";
+import { CircleChevronRight, CircleChevronLeft } from "lucide-react";
 
 function NewTracks() {
-	// const [active, setActive] = useState(3); // Center slide index
+	const [active, setActive] = useState(3); // Center slide index
 
-	// const handleNext = () => {
-	// 	setActive((prev) => (prev + 1) % trackData.length); // Loop back to the start
-	// };
+	const handleNext = () => {
+	setActive((prev) => (prev + 1) % trackData.length); // Loop back to the start
+	};
 
-	// const handlePrev = () => {
-	// 	setActive((prev) => (prev - 1 + trackData.length) % trackData.length); // Loop back to the end
-	// };
+	const handlePrev = () => {
+	setActive((prev) => (prev - 1 + trackData.length) % trackData.length); // Loop back to the end
+	};
 
 	return (
 		<div
@@ -24,7 +24,7 @@ function NewTracks() {
 		>
 			<HeaderText text="TRACKS" />
 
-			<div className={styles.slider}>
+			{/* <div className={styles.slider}>
 			<div className={styles.cardsContainer}>
 				{trackData.map((track) => (
 					<div
@@ -38,9 +38,9 @@ function NewTracks() {
 						<TracksCard trackData={track} />
 					</div>
 				))}
-			</div>
+			</div> */}
 
-			{/* <div className={styles.slider}>
+			<div className={styles.slider}>
 				<div className={styles.cardsContainer}>
 					{trackData.map((track: TrackDataTypes, index: number) => {
 						const offset = index - active;
@@ -68,8 +68,8 @@ function NewTracks() {
 							</div>
 						);
 					})}
-				</div> */}
-				{/* <CircleChevronLeft
+				</div>
+				<CircleChevronLeft
 					onClick={handlePrev}
 					size={36}
 					className={styles.prevButton}
@@ -78,7 +78,7 @@ function NewTracks() {
 					onClick={handleNext}
 					size={36}
 					className={styles.nextButton}
-				/> */}
+				/>
 			</div>
 		</div>
 	);
