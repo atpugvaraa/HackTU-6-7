@@ -9,7 +9,7 @@ export const timelineElements = [
 		buttonText: "Read More",
 		//   location: "",
 		description:
-			"Registration for HackTu 7.0 end on 20th January, 2026. Submit your ideas by this date to participate in the hackathon.",
+			"Registration for HackTU 7.0 end on 20th January, 2026. Submit your ideas by this date to participate in the hackathon.",
 	},
 	{
 		key: 2,
