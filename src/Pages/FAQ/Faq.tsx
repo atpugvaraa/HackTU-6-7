@@ -67,8 +67,8 @@ const faqData: {
   {
     question: "Curious about something else?",
     answer: `Contact us at:
-      +91 9878953052
-      +91 6006654241
+      +91 7388878724
+      +91 7821800212
       support@ccstiet.com`,
   },
 ];

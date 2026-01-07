@@ -140,6 +140,7 @@ export default function NewNavbar() {
 
       <nav className="ml-auto hidden lg:flex gap-6">
         <NavButton text="ABOUT" onClick={(e) => scrollToSection(e, "#about")} />
+          <NavButton text="PRIZES" onClick={(e) => scrollToSection(e, "#prizes")} />
         <NavButton
           text="TRACKS"
           onClick={(e) => scrollToSection(e, "#tracks")}

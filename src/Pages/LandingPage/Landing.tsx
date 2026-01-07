@@ -49,6 +49,7 @@ function Landing() {
               style={{ height: 44, width: "100%", maxWidth: 312 }}
             ></div>
           </div>
+          
         </div>
 
         <div className="mt-7 flex gap-5 flex-col w-[80%]">

@@ -28,7 +28,7 @@ function PrizeRedesign() {
           />
           <PrizeBox
             imgSrc={third}
-            prizeMoney="20,000"
+            prizeMoney="30,000"
             title="Third Prize"
             className="self-end max-sm:hidden border-[#059669]"
           />
@@ -42,7 +42,7 @@ function PrizeRedesign() {
           />
           <PrizeBox
             imgSrc={third}
-            prizeMoney="20,000"
+            prizeMoney="30,000"
             title="Third Prize"
             className="sm:hidden border-[#059669]"
           />
