@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useEffect } from "react";
@@ -47,11 +46,7 @@ export default function Preloader() {
         exit="exit"
         className="flex items-center justify-center"
       >
-       
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 overflow-hidden">
-
-
-
           {/* HACKTU */}
           <div className="flex items-center justify-center" ref={scope1}>
             <motion.svg
@@ -72,30 +67,24 @@ export default function Preloader() {
             </motion.svg>
           </div>
 
-          
           {/* 7.0 */}
-<div
-  ref={scope1} className="flex items-center justify-center"
->
-  <motion.svg
-    viewBox="0 0 175 98"
-    xmlns="http://www.w3.org/2000/svg"
-    className="h-[110px] w-auto max-w-full overflow-hidden"
-
-  >
-    <motion.path
-      d="M68.8799 17.9199L29.54 98H9.37988L49 17.5V16.2402H0V0H68.8799V17.9199ZM88.2725 83.1602V91.8398L82.3926 98H72.1719L66.1523 91.9805V83.0195L72.1719 77H82.3926L88.2725 83.1602ZM174.755 16.2402V81.7598L158.515 98H115.115L98.875 81.7598V16.2402L115.115 0H158.515L174.755 16.2402ZM117.915 22.4004V75.5996L124.075 81.7598H149.555L155.715 75.5996V22.4004L149.555 16.2402H124.075L117.915 22.4004Z"
-      stroke="#36BBBD"
-      strokeWidth="5"
-      fill="none"
-      variants={icon3}
-      initial="hidden"
-      animate="visible"
-    />
-  </motion.svg>
-</div>
-
-
+          <div ref={scope1} className="flex items-center justify-center">
+            <motion.svg
+              viewBox="0 0 175 98"
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-[110px] w-auto max-w-full overflow-hidden"
+            >
+              <motion.path
+                d="M68.8799 17.9199L29.54 98H9.37988L49 17.5V16.2402H0V0H68.8799V17.9199ZM88.2725 83.1602V91.8398L82.3926 98H72.1719L66.1523 91.9805V83.0195L72.1719 77H82.3926L88.2725 83.1602ZM174.755 16.2402V81.7598L158.515 98H115.115L98.875 81.7598V16.2402L115.115 0H158.515L174.755 16.2402ZM117.915 22.4004V75.5996L124.075 81.7598H149.555L155.715 75.5996V22.4004L149.555 16.2402H124.075L117.915 22.4004Z"
+                stroke="#36BBBD"
+                strokeWidth="5"
+                fill="none"
+                variants={icon3}
+                initial="hidden"
+                animate="visible"
+              />
+            </motion.svg>
+          </div>
         </div>
       </motion.div>
     </motion.section>

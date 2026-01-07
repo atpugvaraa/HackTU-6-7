@@ -20,7 +20,6 @@ export default function MainLayout() {
       <NewNavbar />
 
       <TwinklingBackground>
-
         {/* HERO SECTION */}
         <Landing />
 
@@ -42,7 +41,6 @@ export default function MainLayout() {
         <Sponsers />
         <Faq />
         <Footer />
-
       </TwinklingBackground>
     </div>
   );

@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import PreLoader from "./preloader"; 
+import PreLoader from "./preloader";
 import TwinklingBackground from "../../TwinklingBackground";
 
 export default function NewPreLoader() {
@@ -22,11 +22,11 @@ export default function NewPreLoader() {
       {isLoading && (
         <motion.div
           initial={{ opacity: 1 }}
-          exit={{ opacity: 0, transition: { duration: 0.5} }}
+          exit={{ opacity: 0, transition: { duration: 0.5 } }}
           className="fixed inset-0 z-[99999] flex items-center justify-center"
         >
           <TwinklingBackground>
-          <PreLoader />
+            <PreLoader />
           </TwinklingBackground>
         </motion.div>
       )}

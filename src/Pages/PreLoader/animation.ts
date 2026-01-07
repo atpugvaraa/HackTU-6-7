@@ -18,16 +18,16 @@ export const icon: Variants = {
   hidden: {
     opacity: 0,
     pathLength: 0,
-    fill: "rgba(0,0,0,0)"
+    fill: "rgba(0,0,0,0)",
   },
   visible: {
     opacity: 1,
-    pathLength: 1,      // FULL DRAW
+    pathLength: 1, // FULL DRAW
     transition: {
       pathLength: { delay: 0.2, duration: 3.5, ease: "easeInOut" },
-      opacity: { delay: 0.2, duration: 1 }
-    }
-  }
+      opacity: { delay: 0.2, duration: 1 },
+    },
+  },
 };
 
 export const icon2: Variants = {
@@ -35,18 +35,18 @@ export const icon2: Variants = {
     opacity: 0,
     pathLength: 0,
     fill: "rgba(0,0,0,0)",
-    x: -200
+    x: -200,
   },
   visible: {
     opacity: 1,
-    pathLength: 1,      // FULL DRAW
+    pathLength: 1, // FULL DRAW
     x: 0,
     transition: {
       pathLength: { delay: 0.8, duration: 3.5, ease: "easeInOut" },
       opacity: { delay: 0.8, duration: 1 },
-      x: { delay: 0.8, duration: 0.6, ease: "easeOut" }
-    }
-  }
+      x: { delay: 0.8, duration: 0.6, ease: "easeOut" },
+    },
+  },
 };
 
 export const icon3: Variants = {
@@ -54,20 +54,19 @@ export const icon3: Variants = {
     opacity: 0,
     pathLength: 0,
     fill: "rgba(0,0,0,0)",
-    x: -200
+    x: -200,
   },
   visible: {
     opacity: 1,
     x: 0,
-    pathLength: 1,      // FULL DRAW
+    pathLength: 1, // FULL DRAW
     transition: {
       pathLength: { delay: 1.5, duration: 3, ease: "easeInOut" },
       opacity: { delay: 1.5, duration: 1 },
-      x: { delay: 1.5, duration: 0.5, ease: "easeOut" }
-    }
-  }
+      x: { delay: 1.5, duration: 0.5, ease: "easeOut" },
+    },
+  },
 };
-
 
 export const anim: Variants = {
   initial: {
