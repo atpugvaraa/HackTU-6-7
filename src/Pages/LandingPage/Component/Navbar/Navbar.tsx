@@ -1,4 +1,4 @@
-import logo from "./Assets/ccs_20.png";
+import logo from "./Assets/ccs_logo_white.png";
 
 function Navbar() {
   return (

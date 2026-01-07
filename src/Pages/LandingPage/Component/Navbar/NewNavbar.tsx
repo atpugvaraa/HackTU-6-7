@@ -1,7 +1,7 @@
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import NavButton from "./Assets/NavButton";
-import ccLogo from "./Assets/ccs_20.png";
+import ccLogo from "./Assets/ccs_logo_white.png";
 import menuLogo from "./Assets/menuLogo.svg";
 import { ImgHTMLAttributes, useState } from "react";
 import { useNavigate } from "react-router";
@@ -128,12 +128,12 @@ export default function NewNavbar() {
         </SheetContent>
       </Sheet>
       <button
-        className="mr-6 hidden lg:flex bg-transparent border-none"
+        className="mr-6 lg:flex bg-transparent border-none items-center"
         onClick={() => {
           navigate("/");
         }}
       >
-        <CCSLogo />
+        <CCSLogo className="h-9 ml-4"/>
 
         <span className="ml-3">HackTU</span>
       </button>
